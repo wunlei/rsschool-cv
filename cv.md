@@ -6,3 +6,12 @@
 
 ### Summary:
 * I'm open to new initiatives and ideas. Well-organized, self-motivated. As perfectionist, I always want to acquire real skills, not just superficial knowledge.
+
+### Skills:
+*In progress.*
+
+### Experience
+*No (unfortunately)*
+
+### Education
+* 2016-2020 Technologist of Artistic Processing of Materials, MSUDT
