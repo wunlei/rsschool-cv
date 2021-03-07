@@ -15,3 +15,6 @@
 
 ### Education
 * 2016-2020 Technologist of Artistic Processing of Materials, MSUDT
+
+### English
+* Intermediate
