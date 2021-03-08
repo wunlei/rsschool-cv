@@ -1,248 +1,246 @@
 @font-face {
-    font-family: "Catamaran";
-    src: url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Fira+Sans:wght@100&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,300&display=swap");
-  }
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    height: 100%;
-    font-family: "Catamaran", sans-serif;
-  }
-  
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .h3 {
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-  
-  .wrapper {
-    margin: 0 auto;
-    display: flex;
-    min-height: 100%;
-    min-width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header {
-    display: flex;
-    height: 5px;
-  }
-  
-  .hidden {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    overflow: hidden;
-    height: 1px;
-    width: 1px;
-    padding: 0;
-    border: 0;
-  }
-  
-  .main {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 90%;
-  }
-  
-  .section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .list {
-    margin: 0;
-    padding: 0;
-    list-style-type: circle;
-  }
-  
-  .aside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 30%;
-  }
-  
-  .profile-picture {
-    display: flex;
-    width: 192px;
-    height: 256px;
-    border: 5px solid #f0e9db;
-    border-radius: 8px;
-  }
-  
-  .name-h2 {
-    color: rgb(56, 56, 56);
-    font-weight: 400;
-  }
+  font-family: "Catamaran";
+  src: url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Fira+Sans:wght@100&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+}
 
-  .contacts__h3 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 10px solid rgb(208, 245, 208);
-  }
-  
-  .contacts-list__item {
-    margin: 0.5em 0;
-  } 
+html {
+  height: 100%;
+}
 
-  .about__h3 {
-    margin-top: 0.5em;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 10px solid rgb(240, 245, 208);
-  }
-  
-  .about__p {
-    margin: 0.5em 0;
-    text-align: justify;
-  }
-  .main-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  
-  .main-info_top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .education {
-    width: 100%;
-  }
-  
-  .education__h3 {
-    margin-top: 0.5em;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 10px solid rgb(208, 212, 245);
-  }
-  
-  .education__p {
-    margin: 2em 0;
-  }
-  
-  .experience {
-    width: 100%;
-  }
-  
-  .experience__h3 {
-    margin-top: 0.5em;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 10px solid rgb(208, 233, 245);
-  }
-  
-  .experience__p {
-    margin: 2em 0;
-  }
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Catamaran", sans-serif;
+}
 
-  .main-info_bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .code {
-    align-items: center;
-    text-align: center;
-  }
-  
-  .code__h3 {
-    margin: 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 5em;
-    border-bottom: 10px solid rgb(245, 222, 208);
-  }
-  
-  .code-link {
-    color: black;
-  }
-  
-  .skills {
-    margin: 0 1em;
-  }
-  
-  .skills__h3 {
-    margin: 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 5em;
-    border-bottom: 10px solid rgb(245, 222, 208);
-  }
-  
-  .languages {
-    text-align: center;
-  }
-  
-  .languages__h3 {
-    margin: 0.5em 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 5em;
-    border-bottom: 10px solid rgb(245, 222, 208);
-  }
-  
-  .footer {
-    margin-top: 1em;
-    display: flex;
-    width: 100%;
-  }
-  
-  .links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .github-link {
-    display: flex;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .rsschool-link {
-    display: flex;
-    width: 40px;
-    height: 15px;
-  }
-  
-  .year {
-    margin: 0 7em;
-    font-size: 0.8em;
-    color: rgb(83, 83, 83);
-  }
+p {
+  margin: 0;
+  padding: 0;
+}
 
+.h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  min-height: 100%;
+  min-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  height: 5px;
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 90%;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: circle;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 30%;
+}
+
+.profile-picture {
+  display: flex;
+  width: 192px;
+  height: 256px;
+  border: 5px solid #f0e9db;
+  border-radius: 8px;
+}
+
+.name-h2 {
+  color: rgb(56, 56, 56);
+  font-weight: 400;
+}
+
+.contacts__h3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 10px solid rgb(208, 245, 208);
+}
+
+.contacts-list__item {
+  margin: 0.5em 0;
+}
+
+.about__h3 {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 10px solid rgb(240, 245, 208);
+}
+
+.about__p {
+  margin: 0.5em 0;
+  text-align: justify;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-info_top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.education {
+  width: 100%;
+}
+
+.education__h3 {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 10px solid rgb(208, 212, 245);
+}
+
+.education__p {
+  margin: 2em 0;
+}
+
+.experience {
+  width: 100%;
+}
+
+.experience__h3 {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 10px solid rgb(208, 233, 245);
+}
+
+.experience__p {
+  margin: 2em 0;
+}
+
+.main-info_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.code {
+  align-items: center;
+  text-align: center;
+}
+
+.code__h3 {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5em;
+  border-bottom: 10px solid rgb(245, 222, 208);
+}
+
+.code-link {
+  color: black;
+}
+
+.skills {
+  margin: 0 1em;
+}
+
+.skills__h3 {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5em;
+  border-bottom: 10px solid rgb(245, 222, 208);
+}
+
+.languages {
+  text-align: center;
+}
+
+.languages__h3 {
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5em;
+  border-bottom: 10px solid rgb(245, 222, 208);
+}
+
+.footer {
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.github-link {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.rsschool-link {
+  display: flex;
+  width: 40px;
+  height: 15px;
+}
+
+.year {
+  margin: 0 7em;
+  font-size: 0.8em;
+  color: rgb(83, 83, 83);
+}
