@@ -93,3 +93,15 @@
     color: rgb(56, 56, 56);
     font-weight: 400;
   }
+
+  .contacts__h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 10px solid rgb(208, 245, 208);
+  }
+  
+  .contacts-list__item {
+    margin: 0.5em 0;
+  } 
+
