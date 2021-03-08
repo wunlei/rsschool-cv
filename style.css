@@ -117,3 +117,48 @@
     margin: 0.5em 0;
     text-align: justify;
   }
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .main-info_top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .education {
+    width: 100%;
+  }
+  
+  .education__h3 {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 10px solid rgb(208, 212, 245);
+  }
+  
+  .education__p {
+    margin: 2em 0;
+  }
+  
+  .experience {
+    width: 100%;
+  }
+  
+  .experience__h3 {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 10px solid rgb(208, 233, 245);
+  }
+  
+  .experience__p {
+    margin: 2em 0;
+  }
