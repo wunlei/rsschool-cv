@@ -212,3 +212,37 @@
     height: 5em;
     border-bottom: 10px solid rgb(245, 222, 208);
   }
+  
+  .footer {
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .github-link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .rsschool-link {
+    display: flex;
+    width: 40px;
+    height: 15px;
+  }
+  
+  .year {
+    margin: 0 7em;
+    font-size: 0.8em;
+    color: rgb(83, 83, 83);
+  }
+
+
